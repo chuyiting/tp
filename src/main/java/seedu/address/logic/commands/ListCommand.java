@@ -14,7 +14,6 @@ public class ListCommand extends Command {
 
     public static final String MESSAGE_SUCCESS = "Listed all persons";
 
-
     @Override
     public CommandResult execute(Model model) {
         requireNonNull(model);
@@ -22,3 +21,5 @@ public class ListCommand extends Command {
         return new CommandResult(MESSAGE_SUCCESS);
     }
 }
+
+
